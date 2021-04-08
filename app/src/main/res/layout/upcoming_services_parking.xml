@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp">
+
+
+        <ImageView
+            android:id="@+id/im_parking"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/img_service_parking" />
+
+        <TextView
+            style="@style/Parking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:lineSpacingMultiplier="1.27"
+            android:text="Parking" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/highlights"
+        style="@style/Highlights"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/framelayout"
+        android:lineSpacingMultiplier="1.38"
+        android:text="Highlights" />
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/highlights"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/SeamlessAccessToP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:drawablePadding="8dp"
+            android:text="Seamless access to parking"
+            app:drawableLeftCompat="@drawable/ic_check_points" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line1"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            style="@style/SeamlessAccessToP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:drawablePadding="8dp"
+            android:text="Dedicated EV charging points at select parks"
+            app:drawableLeftCompat="@drawable/ic_check_points" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_below="@id/line2"
+        android:layout_margin="30dp"
+        android:background="@drawable/view" />
+
+
+    <TextView
+        style="@style/HoldTightItsCom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:gravity="center_horizontal"
+        android:lineSpacingMultiplier="1.19"
+        android:text="Hold tight!\nIt’s coming soon." />
+
+</RelativeLayout>

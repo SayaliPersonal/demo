@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_marginLeft="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11am"
+            android:textColor="@color/color_text_primary"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="1pm"
+            android:textColor="@color/color_text_primary"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="3pm"
+            android:textColor="@color/color_text_primary"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="5pm"
+            android:textColor="@color/color_text_primary"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="7pm"
+            android:textColor="@color/color_text_primary"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="9pm"
+            android:textColor="@color/color_text_primary"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="11pm"
+            android:textColor="@color/color_text_primary"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <View style="@style/View25" />
+
+            <View style="@style/View20" />
+
+            <View style="@style/View25" />
+
+            <View style="@style/View20" />
+
+            <View style="@style/View25" />
+
+            <View style="@style/View20" />
+
+            <View style="@style/View25" />
+
+            <View style="@style/View20" />
+
+            <View style="@style/View25" />
+
+            <View style="@style/View20" />
+
+            <View style="@style/View25" />
+
+            <View style="@style/View20" />
+
+            <View style="@style/View25" />
+
+            <View style="@style/View20" />
+
+            <View style="@style/View25" />
+
+            <View style="@style/View20" />
+
+            <View style="@style/View25" />
+
+            <View style="@style/View20" />
+
+            <View style="@style/View25" />
+
+            <View style="@style/View20" />
+
+            <View style="@style/View25" />
+
+            <View style="@style/View20" />
+
+            <View style="@style/View25" />
+
+            <View style="@style/View20" />
+
+            <View style="@style/View25" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="@dimen/time_line_margin"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="12.5dp"
+                android:layout_height="20dp"
+                android:alpha=".5"
+                android:background="@color/red" />
+
+            <View
+                android:id="@+id/fill_15_30_view"
+                android:layout_width="12.5dp"
+                android:layout_height="20dp"
+                android:alpha=".5"
+                android:background="@color/red" />
+
+            <View
+                android:id="@+id/fill_30_45_view"
+                android:layout_width="12.5dp"
+                android:layout_height="20dp"
+                android:alpha=".5"
+                android:background="@color/red" />
+
+            <View
+                android:id="@+id/fill_45_60_view"
+                android:layout_width="12.5dp"
+                android:layout_height="20dp"
+                android:alpha=".5"
+                android:background="@color/red" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CSWork" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryVariant">@color/blue_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+<!--        <item name="colorSecondary">@color/blue_secondary</item>-->
+<!--        <item name="colorSecondaryVariant">@color/blue_secondary</item>-->
+<!--        <item name="colorOnSecondary">@color/black</item>-->
+       <item name="colorSecondary">@color/blue_primary_dark</item>
+        <item name="colorSecondaryVariant">@color/blue_primary_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+<!--        <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>-->
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.CSWork.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.CSWork.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.CSWork.Button" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

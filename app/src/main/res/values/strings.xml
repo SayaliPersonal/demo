@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">CS@Work</string>
+
+    <string name="content_description_logo">CS@Work Logo</string>
+    <string name="content_description_background_star">Background Star</string>
+
+    <string name="label_register">Register</string>
+    <string name="hint_mobile_number">Mobile Number</string>
+    <string name="label_name">Name</string>
+    <string name="label_change">Change</string>
+    <string name="label_enter_otp">Enter OTP</string>
+    <string name="label_resend_otp">Resend OTP</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_meeting_room_details">ScrollingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_enter_mobile_number">Enter Mobile Number</string>
+    <string name="label_get_otp">Get OTP</string>
+    <string name="label_confirm">Confirm</string>
+    <string name="label_cancel_description">Cancellation of bookings for meeting services
+must be made at least 2 hours (will be change to 15 minutes) before the time slot requested. Otherwise, no refund would be made for the Meeting Service Credits.     Upon completion of the booking via Bridge+ Members, meeting service credits will be deducted.</string>
+    <string name="title_activity_home_screen">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_my_qr">My QR</string>
+    <string name="title_favourites">Favourites</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="label_description_empty_notification">We will notify you when there is something new</string>
+    <string name="label_header_empty_notification">You\'re All Caught Up!</string>
+    <string name="content_description_empty_notification">Empty Notification</string>
+    <string name="label_view_all">View All</string>
+
+    <string name="password_strength_weak">Weak</string>
+    <string name="password_strength_medium">Medium</string>
+    <string name="password_strength_strong">Strong</string>
+    <string name="password_strength_very_strong">Very Strong</string>
+
+</resources>
